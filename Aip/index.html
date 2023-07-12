@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Family Data Form</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1 style="color: #070e0e;">Family Data Form</h1>
+        <div>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required /><br /><br />
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required /><br /><br />
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required /><br /><br />
+
+                <label for="relationship">Relationship:</label>
+                <select id="relationship" name="relationship">
+                    <option value="self">Self</option>
+                    <option value="spouse">Spouse</option>
+                    <option value="child">Child</option>
+                    <option value="parent">Parent</option>
+                    <option value="sibling">Sibling</option>
+                </select><br /><br />
+
+                <label>Gender:</label>
+                <input type="radio" id="male" name="gender" value="male" />
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female" />
+                <label for="female">Female</label><br /><br />
+
+                <label>Languages:</label>
+                <input type="checkbox" id="english" name="languages[]" value="english" />
+                <label for="english">English</label>
+                <input type="checkbox" id="spanish" name="languages[]" value="spanish" />
+                <label for="spanish">Spanish</label>
+                <input type="checkbox" id="french" name="languages[]" value="french" />
+                <label for="french">French</label><br /><br />
+
+                <input type="submit" value="Submit" />
+            </form>
+            <hr />
+        </div>
+        <div>
+            <ul>
+                <li>Panjab</li>
+                <li>
+                    Maharashtra
+                    <ul>
+                        <li>Pune</li>
+                        <li>Mumbai</li>
+                    </ul>
+                </li>
+                <li>Gujarat</li>
+            </ul>
+        </div>
+        <hr />
+        <div>
+            <form action="#" method="post">
+                <label for="Enter Name of your friend">Enter Name of your friend</label>
+                <input type="text" id="Enter Name of your friend" name="Enter Name of your friend" required />
+                <br />
+                <p>Choose the file you want to post to your friend</p>
+                <input type="text" id="" name="" required />
+                <input type="text" id="Browser..." name="Browser..." placeholder="Browser..." required />
+
+                <p>What does the file contain?</p>
+                <input type="checkbox" id="image" name="image" value="image" />
+                <label for="image">Image</label>
+                <input type="checkbox" id="source code" name="source code" value="source code" />
+                <label for="source code">Source Code</label>
+                <input type="checkbox" id="binary code" name="binary code" value="binary code" />
+                <label for="binary code">Binary code</label><br /><br /><br />
+
+                <label for="you have completed the form">You have completed the Form</label>
+                <input style="font-size: large" type="text" id="submit query" name="submit query"
+                    placeholder="Submit Query" required />
+            </form>
+        </div>
+        <hr />
+        <div>
+            <table>
+                <tr>
+                    <th>Country</th>
+                    <th colspan="3">Population</th>
+                    <!-- <th>Marks</th> -->
+                </tr>
+                <tr>
+                    <td rowspan="3">India</td>
+                    <td>1998</td>
+                    <td>85</td>
+                </tr>
+                <tr>
+                    <td>1999</td>
+                    <td>90</td>
+                </tr>
+                <tr>
+                    <td>200</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td rowspan="3">USA</td>
+                    <td>1998</td>
+                    <td>30</td>
+                </tr>
+                <tr>
+                    <td>1999</td>
+                    <td>35</td>
+                </tr>
+                <tr>
+                    <td>2000</td>
+                    <td>40</td>
+                </tr>
+                <tr>
+                    <td rowspan="3">UK</td>
+                    <td>1998</td>
+                    <td>25</td>
+                </tr>
+                <tr>
+                    <td>1999</td>
+                    <td>30</td>
+                </tr>
+                <tr>
+                    <td>2000</td>
+                    <td>35</td>
+                </tr>
+                
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
